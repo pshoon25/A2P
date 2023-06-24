@@ -8,8 +8,8 @@ spring:
     port: 6379
 
 jwt:
-  ACCESS_SECRET_KEY: aidhgjarisdafjskljklriaonsdikrnsnnfkdsijkevklasdfujiielarlfnkanvdkvcxfsdgweasdv
-  REFRESH_SECRET_KEY: zsxdfbnjmsdcyuhjkkrtfweecvrdftfvghfgbhmukhtgugwqesfteyhoikdwduigkwgrsdugafjixf
+  ACCESS_SECRET_KEY: dsajgqkwfjjsjgsdnfjernjJJNSAFJNjjndjanJASFNGKdsajgqkwfjjsjgsdnfjernjJJNSAFJNjjndjanJASFNGK
+  REFRESH_SECRET_KEY: sdkqngJKSAJDKqkjfgkjskKASJGkqjk1234asjdksdkqngJKSAJDKqkjfgkjskKASJGkqjk1234asjdksdkqngJKSAJDKqkjfgkjskKASJGkqjk1234asjdk
 
 mybatis:
   mapper-locations: classpath*:com/A2P/dev/mapper/*.xml

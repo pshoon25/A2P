@@ -12,15 +12,6 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class AdminLoginResponse {
-    private Long id;
-    private String adminName;
-    private String adminPoint;
-    private AdminStatus adminPosition;
-
-    public AdminLoginResponse(Admin admin){
-        this.id = admin.getId();
-        this.adminName = admin.getAdminName();
-        this.adminPoint = admin.getAdminPoint();
-        this.adminPosition = admin.getAdminPosition();
-    }
+    private String accessToken;
+    private String refreshToken;
 }
